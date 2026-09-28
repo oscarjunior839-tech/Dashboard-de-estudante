@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>StudentHub Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+   
+        <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>📚 StudentHub</h2>
+      <nav>
+        <ul>
+          <li>Dashboard</li>
+          <li>Courses</li>
+          <li>Schedule</li>
+          <li>Assignments</li>
+          <li>Profile</li>
+          <li>Settings</li>
+          <li>Logout</li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main">
+      <header>
+        <h1>Welcome back, Oscar 👋</h1>
+      </header>
+
+      <!-- Statistics Cards -->
+      <section class="stats">
+        <div class="card"> <h3>12</h3> <p>Courses</p> </div>
+        <div class="card"> <h3>48</h3> <p>Hours Studied</p> </div>
+        <div class="card"> <h3>08</h3> <p>Assignments</p> </div>
+        <div class="card"> <h3>85%</h3> <p>Average</p> </div>
+      </section>
+
+      <!-- Courses -->
+      <section class="courses">
+        <h2>My Courses</h2>
+        <div class="course-card">
+          <h3>Web Development</h3>
+          <p>Professor: John Smith</p>
+          <div class="progress">
+            <div class="progress-bar" style="width:80%"></div>
+          </div>
+          <p>80% Complete</p>
+        </div>
+        <div class="course-card">
+          <h3>Java</h3>
+          <p>Professor: Anna Lee</p>
+          <div class="progress">
+            <div class="progress-bar" style="width:40%"></div>
+          </div>
+          <p>40% Complete</p>
+        </div>
+      </section>
+
+      <!-- Schedule -->
+      <section class="schedule">
+        <h2>Upcoming Schedule</h2>
+        <table>
+          <tr><th>Time</th><th>Subject</th><th>Instructor</th><th>Room</th></tr>
+          <tr><td>09:00</td><td>Java</td><td>Mr. John</td><td>A101</td></tr>
+          <tr><td>11:00</td><td>Statistics</td><td>Dr. Smith</td><td>B204</td></tr>
+          <tr><td>14:00</td><td>Web Development</td><td>Mrs. Anna</td><td>Lab 2</td></tr>
+        </table>
+      </section>
+
+      <!-- Assignments -->
+      <section class="assignments">
+        <h2>Assignments</h2>
+        <div class="assignment-card pending">
+          <h3>Java Assignment</h3>
+          <p>Due: September 28</p>
+          <span>● Pending</span>
+        </div>
+        <div class="assignment-card completed">
+          <h3>HTML Project</h3>
+          <p>Due: September 20</p>
+          <span>✓ Completed</span>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
